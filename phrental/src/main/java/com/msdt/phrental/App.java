@@ -1,19 +1,19 @@
 package com.msdt.phrental;
 
+import java.util.Properties;
+
 import com.msdt.phrental.domain.CustRole;
 import com.msdt.phrental.domain.Customer;
+import com.msdt.phrental.util.PropertiesReader;
 
-/**
- * Hello world!
- *
- */
+
 public class App 
 {
     public static void main( String[] args )
     {
-        Customer customer = new Customer(1, "San", "Mathy", "Addres", false, CustRole.ADMIN);
+        Properties properties =  PropertiesReader.getPorperties("src/main/resources/dbconnection.properties");
         
-        System.out.println(customer);
-        System.out.println(customer.getCustAddress());
+        System.out.println("File Length: " + properties.size());
+        System.out.println("jdbcUrl: " + properties.getProperty("jdbcUrl"));
     }
 }
