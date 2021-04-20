@@ -10,3 +10,8 @@
 # 2021-04-20 14:48:13.010 [main] [INFO] { com.msdt.phrental.util.PropertiesReader.getProperties(PropertiesReader.java:19) } - Done Reading from file: src/main/resources/dbconnection.properties
 # 2021-04-20 14:48:13.013 [main] [INFO] { com.msdt.phrental.util.PropertiesReader.getProperties(PropertiesReader.java:19) } - Done Reading from file: src/main/resources/dbconnection.properties
 # 2021-04-20 14:48:13.211 [main] [INFO] { com.msdt.phrental.model.config.DBConnection.getConnection(DBConnection.java:39) } - Successfully connected to Database URL: jdbc:postgresql://localhost:5432/phrental
+# 2021-04-20 14:55:06.830 [main] [INFO] { com.msdt.phrental.util.PropertiesReader.getProperties(PropertiesReader.java:19) } - Done Reading from file: src/main/resources/dbconnection.properties
+# 2021-04-20 14:55:06.833 [main] [INFO] { com.msdt.phrental.util.PropertiesReader.getProperties(PropertiesReader.java:19) } - Done Reading from file: src/main/resources/dbconnection.properties
+# 2021-04-20 14:55:06.931 [main] [INFO] { com.msdt.phrental.model.config.DBConnection.getConnection(DBConnection.java:39) } - Successfully connected to Database URL: jdbc:postgresql://localhost:5432/phrental
+# 2021-04-20 15:14:42.880 [main] [INFO] { com.msdt.phrental.util.PropertiesReader.getProperties(PropertiesReader.java:19) } - Done Reading from file: src/main/resources/dbconnection.properties
+# 2021-04-20 15:14:42.974 [main] [INFO] { com.msdt.phrental.model.config.DBConnection.getConnection(DBConnection.java:39) } - Successfully connected to Database URL: jdbc:postgresql://localhost:5432/phrental

@@ -17,19 +17,19 @@ public class DBConnection {
 	private static final String URL = "jdbcUrl";
 	private static final String USER = "postgres.username";
 	private static final String PASSWORD = "postgres.password";
-	private static final String DRIVER = "driverClassName";
+//	private static final String DRIVER = "driverClassName";
 
 	private String databaseUrl = "";
 	private String databaseUser = "";
 	private String databasePassword = "";
-	private String databaseDriver = "";
+	//private String databaseDriver = "";
 
 	public DBConnection() {
 		Properties properties = PropertiesReader.getProperties(PROPERTIES_DB_FILE);
 		databaseUrl = properties.getProperty(URL);
 		databaseUser = properties.getProperty(USER);
 		databasePassword = properties.getProperty(PASSWORD);
-		databaseDriver = properties.getProperty(DRIVER);
+		//databaseDriver = properties.getProperty(DRIVER);
 	}
 	
 	public Connection getConnection() {
