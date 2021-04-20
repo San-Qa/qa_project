@@ -1,1 +1,12 @@
 # 2021-04-20 13:42:42.445 [main] [INFO] { com.msdt.phrental.util.PropertiesReader.getPorperties(PropertiesReader.java:19) } - Done Reading from file: src/main/resources/dbconnection.properties
+# 2021-04-20 14:29:33.763 [main] [INFO] { com.msdt.phrental.util.PropertiesReader.getProperties(PropertiesReader.java:19) } - Done Reading from file: src/main/resources/dbconnection.properties
+# 2021-04-20 14:29:33.769 [main] [INFO] { com.msdt.phrental.util.PropertiesReader.getProperties(PropertiesReader.java:19) } - Done Reading from file: src/main/resources/dbconnection.properties
+# 2021-04-20 14:29:33.772 [main] [ERROR] { com.msdt.phrental.model.config.DBConnection.getConnection(DBConnection.java:39) } - Unable to connect to Database URL: jdbc:postgresql://localhost:5432/phrental java.sql.SQLException: No suitable driver found for jdbc:postgresql://localhost:5432/phrental
+# 2021-04-20 14:41:08.174 [main] [INFO] { com.msdt.phrental.util.PropertiesReader.getProperties(PropertiesReader.java:19) } - Done Reading from file: src/main/resources/dbconnection.properties
+# 2021-04-20 14:41:08.177 [main] [INFO] { com.msdt.phrental.util.PropertiesReader.getProperties(PropertiesReader.java:19) } - Done Reading from file: src/main/resources/dbconnection.properties
+# 2021-04-20 14:41:08.179 [main] [ERROR] { com.msdt.phrental.model.config.DBConnection.getConnection(DBConnection.java:42) } - Unable to find the driver for database Url: jdbc:postgresql://localhost:5432/phrental java.lang.ClassNotFoundException: org.postgresql.Driver
+# 2021-04-20 14:46:48.715 [main] [INFO] { com.msdt.phrental.util.PropertiesReader.getProperties(PropertiesReader.java:19) } - Done Reading from file: src/main/resources/dbconnection.properties
+# 2021-04-20 14:46:48.718 [main] [INFO] { com.msdt.phrental.util.PropertiesReader.getProperties(PropertiesReader.java:19) } - Done Reading from file: src/main/resources/dbconnection.properties
+# 2021-04-20 14:48:13.010 [main] [INFO] { com.msdt.phrental.util.PropertiesReader.getProperties(PropertiesReader.java:19) } - Done Reading from file: src/main/resources/dbconnection.properties
+# 2021-04-20 14:48:13.013 [main] [INFO] { com.msdt.phrental.util.PropertiesReader.getProperties(PropertiesReader.java:19) } - Done Reading from file: src/main/resources/dbconnection.properties
+# 2021-04-20 14:48:13.211 [main] [INFO] { com.msdt.phrental.model.config.DBConnection.getConnection(DBConnection.java:39) } - Successfully connected to Database URL: jdbc:postgresql://localhost:5432/phrental

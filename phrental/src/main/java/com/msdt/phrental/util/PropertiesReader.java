@@ -12,7 +12,7 @@ public class PropertiesReader {
 	
 	private static final Logger LOGGER = LogManager.getLogger();
 	
-	public static Properties getPorperties(String filePath) {
+	public static Properties getProperties(String filePath) {
 		Properties properties = new Properties();
 		try (FileInputStream inputStream = new FileInputStream(filePath)) {
 			properties.load(inputStream);
